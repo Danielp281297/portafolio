@@ -19,11 +19,16 @@ body
     background-color: #f8f9fa;
 }
 
-h1
+h1, h2
 {
 
     font-family: "Fontspring-DEMO-integralcf-regular";
 
+}
+
+h4
+{
+   font-size: x-large;
 }
 
 h2
@@ -120,4 +125,12 @@ svg
 
     margin-right: 1em;
 
+}
+
+#proyecto
+{
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
 }
