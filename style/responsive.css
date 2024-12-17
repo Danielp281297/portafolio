@@ -1,0 +1,144 @@
+/* Se crean el diseno responsivo */
+@media(max-width: 1024px)
+{
+
+    h1
+    {  
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    h3
+    {
+        font-size: medium;
+    }
+
+    p
+    {
+        font-size: x-small;
+    }
+
+    span
+    {
+        font-size: x-small;
+    }
+
+    button
+    {
+        font-size: small;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    .imagen
+    {
+        height: 200px;
+        width: 200px; 
+    }
+
+    .encabezado .mitad-pantalla-horizontal, .mitad-pantalla-vertical .mitad-pantalla-horizontal 
+    {
+        width: 100%;
+        height: auto; 
+        
+    }
+
+    .botones-encabezado
+    {
+        margin-top: 5%;
+    }
+
+    .box-hc
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box-ep
+    {
+        width: 10vh; 
+    }
+    
+    #quien-soy-container
+    {
+        height: 110vh;
+    }
+
+    #habilidades-competencia
+    {
+        height: 25vh;
+    }
+
+    #conocimientos .flexbox-wrap-center
+    {
+        height: 70%;
+    }
+
+    #conocimientos .flexbox-wrap-center .box-hc
+    {
+        width: 10vh;
+    }
+
+    .contenedor-proyecto
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #imagen-proyecto-contenedor
+    {
+        width: 100%; 
+    }
+
+    #descripcion-proyecto
+    {
+        width: 100%; 
+    }
+
+    #proyecto-factura .contenedor-proyecto
+    { 
+        flex-direction: column-reverse;
+    }
+    
+    #width
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo-sobre-mi
+    {
+        height: auto;
+        padding: 2vh;
+    }
+
+    .titulo-proyectos
+    { 
+        padding: 2vh;
+    }
+
+    #contactos-container
+    { 
+        display: flex;
+        align-items: center;
+    }
+
+    #contactos-container .flexbox-wrap-center
+    {
+        height: auto;
+    }
+
+    #futuro-contactos-container
+    {
+        height: 70vh;
+    }
+
+    .titulo-contactos, .titulo-futuros-conocimientos
+    {
+        padding-top: 5px;
+    }
+
+}
