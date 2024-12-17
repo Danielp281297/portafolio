@@ -106,6 +106,17 @@ body
         border-radius: 10px; 
     }
 
+    button:active
+    {
+        border: 3px inset black;
+        background-color: #c2c2c2;
+    }
+
+    button:hover
+    {
+        
+    }
+
     p
     {
         padding: 5px;
@@ -262,6 +273,11 @@ body
         background-color: #c2c2c2;
         border: 3px outset black;
         
+    }
+
+    .marco-logo:active
+    {
+        border: 4px inset black;   
     }
 
     .box-hc p, .tecnologias p
