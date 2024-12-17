@@ -35,8 +35,8 @@
 
     .imagen
     {
-        height: 200px;
-        width: 200px; 
+        height: 175px;
+        width: 175px; 
     }
 
     .encabezado .mitad-pantalla-horizontal, .mitad-pantalla-vertical .mitad-pantalla-horizontal 
@@ -51,19 +51,14 @@
         margin-top: 5%;
     }
 
-    .box-hc
+    .box-hc, .box-ep
     {
         width: 50px;
         height: 50px;
     }
-
-    .box-ep
-    {
-        width: 10vh; 
-    }
     
     #quien-soy-container
-    {
+    { 
         height: 110vh;
     }
 
@@ -116,7 +111,7 @@
     }
 
     .titulo-proyectos
-    { 
+    {  
         padding: 2vh;
     }
 
