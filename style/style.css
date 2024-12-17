@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prata&display=swap');
 
+
 @font-face
 {
     font-family: 'Chicago';
-    src: url('/font/ChicagoFLF.ttf') format('truetype');
+    src: url('../font/ChicagoFLF.ttf') format('truetype');
 }
 
-    *
+*, body, body *
 {
-    
+    font-family: 'Chicago', sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -75,7 +76,7 @@ body
 
     p, button, ul
     {
-        font-family: 'Chicago', sans-serif;
+        font-family: "Chicago", sans-serif;
         font-weight: lighter;
         font-size: small;
         font-style: normal;
@@ -253,8 +254,7 @@ body
 
     .box-ep
     {
-        
-        width: 5vw;
+        width: 4vw;
     }
 
     .marco-logo
