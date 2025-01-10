@@ -175,23 +175,24 @@ body
         border: 1px solid black;
         outline: 3px solid black;
         outline-offset: 3px;
-        transform: rotate(45deg);
+        transform: rotate(45deg); 
 
         background-position: center;
         background-size: cover;
-        overflow: hidden;
+        overflow: hidden; 
     }
 
     .imagen img
     {
-        margin-left:    -155%;
-        padding-left: 17%;
-        height:         155%; 
+        margin-left:    -40%;
+        padding-left:    70%;
+        height:         180%; 
         object-fit:     cover;
         transform:      rotate(-45deg);
 
         filter: grayscale(100%);
     }
+
 
 
     nav
