@@ -55,6 +55,27 @@ class Proyecto{
 
 }
 
+class CajaConocimieto{
+
+    constructor(nombre, imagen){
+        this.nombre = nombre
+        this.imagen = imagen
+    }
+
+    futurosConocimientosBox(){
+
+        return `
+        <div class="box-hc">
+                    <div class="marco-logo">
+                        <img class="logo" src="img/${this.imagen}">
+                    </div>
+                    <span>${this.nombre}</span>
+        </div>
+        `
+
+    }
+}
+
 // Objeto para almacenar el contenido de los proyectos 
 const listaProyectos = [
 
@@ -76,23 +97,28 @@ const listaProyectos = [
 
 ]
 
+const listaFuturosConocimientos = [
+
+    new CajaConocimieto("Inteligencia Artificial", "brain-circuit.svg"),
+    new CajaConocimieto("Linux", "linux.svg")
+
+]
+
 function proyectosContenido(){
-
-    
-    listaProyectos.forEach(proyecto => {
-        proyecto.proyectoHTML()
-    })
-
-
 
     const lista = document.getElementById("lista-proyectos");
     lista.innerHTML = "";
+
+    const futurosConocimientosBox = document.getElementById("futuros-conocimientos-lista");
+    futurosConocimientosBox.innerHTML = ""
 
     for(i = 0; i < listaProyectos.length; i++){
         lista.innerHTML += listaProyectos[i].proyectoHTML()
     }
 
-    
+    for(i = 0; i < listaFuturosConocimientos.length; i++){
+        futurosConocimientosBox.innerHTML += listaFuturosConocimientos[i].futurosConocimientosBox() 
+    }
     
 }
 
